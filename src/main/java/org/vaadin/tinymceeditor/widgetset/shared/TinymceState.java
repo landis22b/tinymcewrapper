@@ -8,11 +8,12 @@ package org.vaadin.tinymceeditor.widgetset.shared;
 import com.vaadin.shared.ui.textfield.TextFieldState;
 
 /**
- *
  * @author mstahv
  */
 public class TinymceState extends TextFieldState {
-    
+
     public String conf;
-    
+    public int startSelection = -1;
+    public int endSelection = -1;
+
 }

@@ -56,6 +56,8 @@ public class TinyMCEConnector extends AbstractTextFieldConnector implements OnCh
         }
     }
 
+
+
     @Override
     public TinymceState getState() {
         return (TinymceState) super.getState();
